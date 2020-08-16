@@ -1,0 +1,172 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  html {
+    box-sizing: border-box;
+    font-size: 60%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Poppins';
+    font-size: 1.8rem; 
+    line-height: 1.4;
+    color: black;
+  }
+  
+  h1,
+  h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 6rem;
+  }
+  
+  h2 {
+    font-size: 4.2rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+ 
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:#8cd426;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+   
+  }
+  
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+  }
+  
+  .nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+  }
+  
+  .nav-list a:hover {
+    background: rgb(197, 245, 102);
+    color: black;
+  }
+  
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+  }
+  
+  .welcome-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color:#86C232;
+  }
+  
+  .projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: #474B4F;
+  }
+  
+  .projects-section-header {
+    max-width:600px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid #86C232;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+ 
+  
+  .project {
+    background: #222629;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+  
+ 
+  .project-title {
+    font-size: 3rem;
+    padding: 2rem 0.5rem;
+    color: white;
+  }
+
+ 
+  footer {
+    line-height: 4rem;
+    font-size: 2rem;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background: rgb(8, 8, 8);
+    border-top: 4px solid var(--main-red);
+  }
+
+  .content-section-header > p {
+    text-align: center;
+  }
+
+ .contact-links {
+      text-align: center;
+  }
+
+  .contact-links > a {
+      color: yellowgreen;
+  }
+  footer > p {
+    text-align: center;
+    margin: 2rem;
+  }
+
+  footer > p > a {
+      color: yellowgreen;
+  }
+ 
+ @media (max-width: 30rem) {
+    html {
+          font-size: 55%;
+        }
+   }
+ 
